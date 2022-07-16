@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest';
 import { CDN } from '../src';
 
-const base = 'https://discord.com';
+const base = 'http://127.0.0.1:3001';
 const id = '123456';
 const hash = 'abcdef';
 const animatedHash = 'a_bcdef';

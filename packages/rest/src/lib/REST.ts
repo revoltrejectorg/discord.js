@@ -25,7 +25,7 @@ export interface RESTOptions {
 	agent: Dispatcher;
 	/**
 	 * The base api path, without version
-	 * @default 'https://discord.com/api'
+	 * @default 'http://127.0.0.1:3001/api'
 	 */
 	api: string;
 	/**

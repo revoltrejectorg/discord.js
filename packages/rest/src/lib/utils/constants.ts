@@ -11,7 +11,7 @@ export const DefaultRestOptions: Required<RESTOptions> = {
 	get agent() {
 		return getGlobalDispatcher();
 	},
-	api: 'https://discord.com/api',
+	api: 'http://127.0.0.1:3001/api',
 	authPrefix: 'Bot',
 	cdn: 'https://cdn.discordapp.com',
 	headers: {},

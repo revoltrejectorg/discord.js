@@ -17,7 +17,7 @@ beforeEach(() => {
 	mockAgent.disableNetConnect();
 	setGlobalDispatcher(mockAgent);
 
-	mockPool = mockAgent.get('https://discord.com');
+	mockPool = mockAgent.get('http://127.0.0.1:3001');
 	api.setAgent(mockAgent);
 	invalidAuthApi.setAgent(mockAgent);
 	rateLimitErrorApi.setAgent(mockAgent);
